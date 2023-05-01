@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "djmix"
+version = "0.1.0"
+description = "CLI tool that allows migrating favorite artists from spotify to youtube music."
+authors = ["Brujo <tomowl@pm.me>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.29.0"
+ytmusicapi = "^1.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
